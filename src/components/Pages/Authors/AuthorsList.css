@@ -1,0 +1,53 @@
+.DropDown-enter {
+    opacity: 0;
+}
+.DropDown-enter-active {
+    opacity: 1;
+    transition: opacity 200ms;
+}
+.DropDown-exit {
+    opacity: 1;
+}
+.DropDown-exit-active {
+    opacity: 0;
+    transition: opacity 200ms;
+}
+.AuthorEl {
+    position: relative;
+}
+.DropDown {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: auto;
+    border-radius: 5px;
+    background: #ccc;
+    box-shadow: 0 0 5px #ddd;
+    width: 250px;
+    padding: 10px;
+}
+.List {
+    padding: 40px;
+}
+.ListItem {
+    list-style: none;
+    padding: 20px;
+    background-image: linear-gradient(to bottom, #b4ddb4 0%,#83c783 17%,#52b152 33%,#008a00 67%,#005700 83%,#002400 100%);
+    margin: 5px;
+    border-radius: 5px;
+    color: #fff;
+}
+.Link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+}
+.DropDownItem {
+    list-style: none;
+}
+.DropDownLink {
+    text-decoration: none;
+    font-style: italic;
+    color: #fff;
+}

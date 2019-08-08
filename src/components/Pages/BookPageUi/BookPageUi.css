@@ -1,0 +1,41 @@
+.Wrapp {
+    margin: 40px;
+    padding: 40px;
+    box-shadow: 0 0 10px #000;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+.Link {
+    text-transform: uppercase;
+    color: #000;
+    font-size: 24px;
+}
+.Genre {
+    font-style: italic;
+    font-size: 22px;
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
+.Descr {
+    text-transform: uppercase;
+}
+.DescrList {
+    box-shadow: inset 0 0 15px #000;
+    border-radius: 10px;
+    background: #ccc;
+    padding: 20px 0;
+}
+.DescrItem {
+    list-style: none;
+    font-style: italic;
+}
+.DeleteLink {
+    font-style: italic;
+    font-size: 18px;
+}
+.DelSpan {
+    color: red;
+    text-transform: uppercase;
+    cursor: pointer;
+}

@@ -1,0 +1,36 @@
+.Icon {
+    width: 24px;
+    height: 20px;
+    cursor: pointer;
+    background: #ccc;
+    display: block;
+    position: relative;
+    font-style: normal;
+}
+.Icon:before {
+    content: '☆';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 28px;
+    line-height: .8;
+    margin: auto;
+}
+.Fav:before {
+    content: '★';
+}
+.BookList {
+    padding: 40px;
+}
+.ListItem {
+    background: #ccc;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}

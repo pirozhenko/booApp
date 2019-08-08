@@ -1,0 +1,20 @@
+.Nav {
+    text-transform: uppercase;
+    width: 500px;
+    margin: 0 auto;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.Nav a {
+    text-decoration: none;
+    color: #000;
+    transition: color .2s;
+}
+.Nav a:hover {
+    color: red;
+}
+.Nav a.Active {
+    color: brown;
+    text-decoration: underline;
+}
