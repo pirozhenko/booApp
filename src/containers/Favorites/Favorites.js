@@ -45,7 +45,7 @@ const mapDispatchToProps = dispatch => {
         onAddToFavorites: (bookName) => dispatch(actions.addToFavorites(bookName)),
         onRemoveFromFavorites: (bookName) => dispatch(actions.removeFromFavorites(bookName)),
         onInitBooks: () => dispatch(actions.initBooksList()),
-    }
+    };
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(Books);

@@ -22,7 +22,7 @@ class BookPage extends Component {
         });
         const isFavoriteCurrentBook = this.props.favorites.find((el => {
             return currentBookTitle === el.title;
-        }))
+        }));
         fetch(`https://en.wikipedia.org/w/api.php?action=query&titles=${currentBookTitle}&prop=categories&origin=*&format=json&formatversion=2`, {
               method: "GET"
             }
@@ -58,7 +58,7 @@ class BookPage extends Component {
             />
         ) : null;
     };
-};
+}
 
 const mapStateToProps = state => {
     return {
@@ -73,7 +73,7 @@ const mapDispatchToProps = dispatch => {
         onSetGenre: (genreType) => dispatch(actions.setGenre(genreType)),
         onRemoveFromFavorites: (bookName) => dispatch(actions.removeFromFavorites(bookName)),
         onInitBooks: () => dispatch(actions.initBooksList()),
-    }
+    };
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(BookPage);

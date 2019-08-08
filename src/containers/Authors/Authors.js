@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import * as actions from '../../store/actions/index';
-import AuthorsList from '../../components/Pages/Authors/AuthorsList'
+import AuthorsList from '../../components/Pages/Authors/AuthorsList';
 
 
 
@@ -27,7 +27,7 @@ const mapStateToProps = state => {
 const mapDispatchToProps = dispatch => {
     return {
         onInitBooks: () => dispatch(actions.initBooksList()),
-    }
+    };
 }
 
 

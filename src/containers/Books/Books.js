@@ -32,7 +32,7 @@ const mapDispatchToProps = dispatch => {
     return {
         onAddToFavorites: (bookName) => dispatch(actions.addToFavorites(bookName)),
         onInitBooks: () => dispatch(actions.initBooksList()),
-    }
+    };
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(Books);

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import * as actions from '../../store/actions/index';
-import AuthorPageUi from '../../components/Pages/AuthorPageUi/AuthorPageUi'
+import AuthorPageUi from '../../components/Pages/AuthorPageUi/AuthorPageUi';
 
 class Author extends Component {
     constructor(props) {
@@ -41,7 +41,7 @@ const mapStateToProps = state => {
 const mapDispatchToProps = dispatch => {
     return {
         onInitBooks: () => dispatch(actions.initBooksList()),
-    }
+    };
 }
 
 

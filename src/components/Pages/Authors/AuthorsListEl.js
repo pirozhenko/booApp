@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { CSSTransition } from 'react-transition-group';
-import classes from './AuthorsList.css'
+import classes from './AuthorsList.css';
 
 const AuthorsListEl = props => {
     const [hover, setHover] = useState(false);
@@ -36,6 +36,6 @@ const AuthorsListEl = props => {
             </CSSTransition>
         </div>
     );
-}
+};
 
 export default AuthorsListEl;

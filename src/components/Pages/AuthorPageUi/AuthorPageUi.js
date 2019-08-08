@@ -9,7 +9,7 @@ const AuthorPageUi = (props) => {
         <h1>{data.title}</h1>
         <ul>
             {data.categories.map((categori, key) => {
-                const cutedCategori = categori.title.replace('Category:', '')
+                const cutedCategori = categori.title.replace('Category:', '');
                 return <li className={classes.ListItem} key={key}>
                     {cutedCategori}
                 </li>

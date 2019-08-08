@@ -1,5 +1,4 @@
 import React from 'react';
-
 import logoImg from '../../assets/images/logo.gif';
 import classes from './Logo.css';
 

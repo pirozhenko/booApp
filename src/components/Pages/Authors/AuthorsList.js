@@ -11,7 +11,7 @@ const AuthorsList = (props) => {
                 </li>
             })}
         </ul>
-    )
-}
+    );
+};
 
 export default AuthorsList;

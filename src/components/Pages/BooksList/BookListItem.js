@@ -16,6 +16,6 @@ const booksListItem = (props) => {
             />
         </li>
     );
-}
+};
 
 export default booksListItem;
