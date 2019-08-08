@@ -4,7 +4,7 @@ import classes from './AuthorPageUi.css';
 
 
 const AuthorPageUi = (props) => {
-    const data = props.data.query.pages[0];
+    const data = props.data.query.pages.shift();
     return <div className={classes.Wrap}>
         <h1>{data.title}</h1>
         <ul>

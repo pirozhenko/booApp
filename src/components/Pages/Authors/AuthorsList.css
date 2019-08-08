@@ -1,17 +1,3 @@
-.DropDown-enter {
-    opacity: 0;
-}
-.DropDown-enter-active {
-    opacity: 1;
-    transition: opacity 200ms;
-}
-.DropDown-exit {
-    opacity: 1;
-}
-.DropDown-exit-active {
-    opacity: 0;
-    transition: opacity 200ms;
-}
 .AuthorEl {
     position: relative;
 }
@@ -20,12 +6,17 @@
     top: 0;
     left: 0;
     z-index: 1;
+    opacity: 0;
     height: auto;
     border-radius: 5px;
     background: #ccc;
     box-shadow: 0 0 5px #ddd;
     width: 250px;
     padding: 10px;
+    transition: opacity .3s;
+}
+.AuthorEl:hover .DropDown {
+    opacity: 1;
 }
 .List {
     padding: 40px;
